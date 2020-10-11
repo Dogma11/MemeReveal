@@ -1,13 +1,13 @@
 import MemeView from './MemeView.js';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  let dayName = days[new Date().getDay()];
   return (
     <div className="App">
-      <h2>Hello</h2>
-      <MemeView day="Vendredi" />
+      <MemeView day={dayName} />
     </div>
   );
 }

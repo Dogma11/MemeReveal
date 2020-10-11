@@ -7,7 +7,7 @@ class MemePlayer extends React.Component {
       return (
         <div className="meme-player">
             <h6>{this.props.name}</h6>
-            <ReactPlayer url={this.props.url} playing = {this.props.playing} playbackRate />
+            <ReactPlayer url={this.props.url} playing = {this.props.playing} />
         </div>
       );
     }
