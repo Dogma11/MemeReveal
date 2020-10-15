@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar {
+    background-color: rgb(68, 68, 68);
+    .title-app {
+      text-align: center;
+      background-color: white;
+      border: 1px solid transparent;
+      border-radius: 15px;
+    }
+  }
+  
