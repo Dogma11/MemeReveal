@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Header = ({ children }) => {
-  // console.log(WrappedComponent);
   return (
         <div className="main">
             <header>

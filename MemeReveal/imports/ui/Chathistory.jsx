@@ -2,6 +2,8 @@ import React from 'react';
 import {Message} from './Message';
 
 export const ChatHistory = ( {otherMsg, myMsg} ) => {
+    console.log(otherMsg);
+    console.log(myMsg);
     otherMsg = otherMsg || [];
     myMsg = myMsg || [];
     return (
